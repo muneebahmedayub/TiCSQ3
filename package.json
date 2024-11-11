@@ -5,7 +5,17 @@
   "repository": "https://github.com/muneebahmedayub/TiCSQ3.git",
   "author": "muneebahmedayub <muneebahmedayub01@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.2",
+    "chai-http": "^5.1.1",
+    "mocha": "^10.8.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
   }
 }
