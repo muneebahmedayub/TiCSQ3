@@ -1,0 +1,11 @@
+{
+  "name": "quiz-3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/muneebahmedayub/TiCSQ3.git",
+  "author": "muneebahmedayub <muneebahmedayub01@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
