@@ -13,3 +13,5 @@ The task involves:
 ## Steps Performed
 
 1. Created first file and committed:
+2. Add first file
+3. Add second file
