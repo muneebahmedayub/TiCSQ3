@@ -1,6 +1,8 @@
+// import express from "express";
 import express from "express";
 const app = express();
-const port = 8080;
+const port = 8000;
+
 
 app.get("/", (req, res) => {
   res.send("Hello, World!");
@@ -8,7 +10,7 @@ app.get("/", (req, res) => {
 
 if (import.meta.url === `file://${process.argv[1]}`) {
   app.listen(port, () => {
-    console.log(`Server is running at http://localhost:${port}`);
+    console.log(`Server is running locally at http://localhost:${port}`);
   });
 }
 
